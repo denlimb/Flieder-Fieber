@@ -9,7 +9,7 @@ def division(a, b):
     return a / b
 
 # Eingabe von zwei Zahlen durch den Benutzer und Rechenweg-Auswahl
-eingabe = input("Welche Rechenoperation möchten Sie wählen?\n1) Addition\n2) Subtraktion\n3)Multiplikation\n4) Division\n5) Exit")
+eingabe = input("Welche Rechenoperation möchten Sie wählen?\n1) Addition\n2) Subtraktion\n3)Multiplikation\n4) Division\n5) Exit\n")
 a = int(input("Gib die erste Zahl ein: "))
 b = int(input("Gib die zweite Zahl ein: "))
 
