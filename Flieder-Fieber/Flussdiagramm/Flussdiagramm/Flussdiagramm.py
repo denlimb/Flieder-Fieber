@@ -1,6 +1,3 @@
-# Funktion zur Addition zweier Zahlen
-from audioop import add
-
 
 def addition(a, b):
     return a + b # Rückgabe der Summe
@@ -16,22 +13,23 @@ eingabe = input("Welche Rechenoperation möchten Sie wählen?\n1) Addition\n2) S
 a = int(input("Gib die erste Zahl ein: "))
 b = int(input("Gib die zweite Zahl ein: "))
 
-if(b == 0 and eingabe == "4"):
-    print("Fehler. b kann nicht 0 sein")
-    b = int(input("Gib erneut eine zweite Zahl ein: "))
-    print("Ergebnis:", division(a, b))
-
-match(eingabe):
-    case "1":
-        print("Ergebnis:", addition(a, b))
-    case "2":
-        print("Ergebnis:", subtraktion(a, b))
-    case "3":
-        print("Ergebnis:", multiplikation(a, b))
-    case "4":
-        print("Ergebnis:", division(a, b))
-    case "5":
-        print("exit")
+if(b == 0 and eingabe == '4'):
+    while b == 0:
+        print('Fehler. b kann nicht 0 sein')
+        b = int(input('Gib erneut eine zweite Zahl ein: '))
+        print('Ergebnis: ', division(a, b))
+else:
+    match(eingabe):
+        case '1':
+            print('Ergebnis: ', addition(a, b))
+        case '2':
+            print('Ergebnis: ', subtraktion(a, b))
+        case '3':
+            print('Ergebnis: ', multiplikation(a, b))
+        case '4':
+            print('Ergebnis: ', division(a, b))
+        case '5':
+            print('exit')
 
 
 
