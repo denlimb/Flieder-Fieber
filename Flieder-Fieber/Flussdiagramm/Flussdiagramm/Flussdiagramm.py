@@ -17,7 +17,7 @@ if(b == 0 and eingabe == '4'):
     while b == 0:
         print('Fehler. b kann nicht 0 sein')
         b = int(input('Gib erneut eine zweite Zahl ein: '))
-        print('Ergebnis: ', division(a, b))
+    print('Ergebnis: ', division(a, b))
 else:
     match(eingabe):
         case '1':
