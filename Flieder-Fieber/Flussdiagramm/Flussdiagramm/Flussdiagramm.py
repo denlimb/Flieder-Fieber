@@ -19,18 +19,19 @@ b = int(input("Gib die zweite Zahl ein: "))
 if(b == 0 and eingabe == "4"):
     print("Fehler. b kann nicht 0 sein")
     b = int(input("Gib erneut eine zweite Zahl ein: "))
-else:
-    match(eingabe):
-        case "1":
-            print("Ergebnis:", addition(a, b))
-        case "2":
-            print("Ergebnis:", subtraktion(a, b))
-        case "3":
-            print("Ergebnis:", multiplikation(a, b))
-        case "4":
-            print("Ergebnis:", division(a, b))
-        case "5":
-            print("exit")
+    print("Ergebnis:", division(a, b))
+
+match(eingabe):
+    case "1":
+        print("Ergebnis:", addition(a, b))
+    case "2":
+        print("Ergebnis:", subtraktion(a, b))
+    case "3":
+        print("Ergebnis:", multiplikation(a, b))
+    case "4":
+        print("Ergebnis:", division(a, b))
+    case "5":
+        print("exit")
 
 
 
