@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ubo-00-bl23\\source\\repos\\denlimb\\Flieder-Fieber\\Flieder-Fieber\\Rechteck-Berechnung\\Rechteck-Berechnung\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C54FB136-F80A-45BD-8E09-22C144F76617}|Rechteck-Berechnung\\Rechteck-Berechnung.pyproj|C:\\Users\\ubo-00-bl23\\source\\repos\\denlimb\\Flieder-Fieber\\Flieder-Fieber\\Rechteck-Berechnung\\Rechteck-Berechnung\\Rechteck-Berechnung\\Rechteck_Berechnung.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C54FB136-F80A-45BD-8E09-22C144F76617}|Rechteck-Berechnung\\Rechteck-Berechnung.pyproj|solutionrelative:Rechteck-Berechnung\\Rechteck_Berechnung.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Rechteck_Berechnung.py",
+              "DocumentMoniker": "C:\\Users\\ubo-00-bl23\\source\\repos\\denlimb\\Flieder-Fieber\\Flieder-Fieber\\Rechteck-Berechnung\\Rechteck-Berechnung\\Rechteck-Berechnung\\Rechteck_Berechnung.py",
+              "RelativeDocumentMoniker": "Rechteck-Berechnung\\Rechteck_Berechnung.py",
+              "ToolTip": "C:\\Users\\ubo-00-bl23\\source\\repos\\denlimb\\Flieder-Fieber\\Flieder-Fieber\\Rechteck-Berechnung\\Rechteck-Berechnung\\Rechteck-Berechnung\\Rechteck_Berechnung.py",
+              "RelativeToolTip": "Rechteck-Berechnung\\Rechteck_Berechnung.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-02-19T08:55:38.291Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
